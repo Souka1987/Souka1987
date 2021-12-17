@@ -1,3 +1,6 @@
+![from_assets](https://github.com/Souka1987/Souka1987/assets/cover.jpeg)
+
+
 <h1 align="center">Hi 👋, I'm Souka</h1>
 <h3 align="center">A passionate frontend developer from France</h3>
 
