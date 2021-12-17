@@ -1,16 +1,13 @@
-![from_assets](https://github.com/Souka1987/Souka1987/assets/cover.jpeg)
-
-
-<h1 align="center">Hi 👋, I'm Souka</h1>
-<h3 align="center">A passionate frontend developer from France</h3>
+<h1 align="center">Hi :hand:, I'm Souka</h1>
+<h3 align="center">A passionate frontend developer from France :fr:</h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=souka1987&label=Profile%20views&color=0e75b6&style=flat" alt="souka1987" /> </p>
 
-- 🌱 I’m currently learning **How to create a 3-tier architecture**
+- :beginner: I’m currently learning **How to create a 3-tier architecture**
 
 - 💬 About me : **I started web development in 2020, because I wanted to discover the digital business. I've been passionate about computers since I was very young. My speciality is the front end, I'm happy to have discovered technologies such as React and Handlebars. I'm looking forward to learning more.**
 
-- 📫 email : **soukainataattoumani@yahoo.fr**
+- :email: email : **soukainataattoumani@yahoo.fr**
 
 - ⚡ Fun fact : **I am passionate about japanimation and manga.**
 
