@@ -1,10 +1,11 @@
 <h1 align="center">Hi :hand:, I'm Souka</h1>
-<h3 align="center">A passionate frontend developer from France :fr:</h3>
+<p align="center">A passionate frontend developer from France :fr:</p>
 
+<center>
 
-- :closed_book: I’m currently learning How to create a 3-tier architecture
+I started web development in 2020, because I wanted to discover the digital business. I've been passionate about computers since I was very young. My speciality is the front end, I'm happy to have discovered technologies such as React and Handlebars. I'm looking forward to learning more.I’m currently learning How to create a 3-tier architecture.
 
-- 💬 About me : I started web development in 2020, because I wanted to discover the digital business. I've been passionate about computers since I was very young. My speciality is the front end, I'm happy to have discovered technologies such as React and Handlebars. I'm looking forward to learning more.
+</center>
 
 - :email: soukainataattoumani@yahoo.fr
 
