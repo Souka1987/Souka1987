@@ -14,7 +14,7 @@ I started web development in 2020, because I wanted to discover the digital busi
 
 <h1 align="center">Course</h1>
 
-<center>
+<div align="center">
 
 | Degrees                     | Obtained         |  years  |
 | :---                        | :----:           |    ---: |
@@ -22,18 +22,18 @@ I started web development in 2020, because I wanted to discover the digital busi
 | Web and Mobile Web Developer| yes              | 2020    |
 | Vocational Baccalauréat     | yes              | 2008    |
 
-</center>
+</div>
 
 
 <h1 align="center">Connect with me:</h1>
 
-<center>
+<div align="center">
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Souka1987/Formation_DWWM?logo=github&logoColor=pink&style=social)
 ![GitHub followers](https://img.shields.io/github/followers/Souka1987?logoColor=crimson&style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/Souka1987/Formation_CDA?logoColor=red&style=social)
 
-</center>
+</div>
 
 <p align="center">
  <a href="https://www.linkedin.com/in/soukainata-attoumani-39131b13b/" rel="nofollow noreferrer">
@@ -44,7 +44,7 @@ I started web development in 2020, because I wanted to discover the digital busi
 
 <h1 align="center">Languages and Technologies:</h1>
 
-<center>
+<div align="center">
 
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -73,4 +73,4 @@ I started web development in 2020, because I wanted to discover the digital busi
 ![npm](https://img.shields.io/npm/v/quasar?color=blue&label=quasar&logo=quasar&logoColor=blue&style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/mui?color=blue&label=mui&logo=mui&logoColor=blue&style=for-the-badge)
 
-</center>
+</div>
