@@ -42,7 +42,7 @@ I started web development in 2020, because I wanted to discover the digital busi
 </p>
 
 
-<h1 align="center">Languages and Technologies:</h1>
+<h1 align="center">Languages, Technologies and Environments :</h1>
 
 <div align="center">
 
