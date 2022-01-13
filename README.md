@@ -74,3 +74,11 @@ I started web development in 2020, because I wanted to discover the digital busi
 ![npm](https://img.shields.io/npm/v/mui?color=blue&label=mui&logo=mui&logoColor=blue&style=for-the-badge)
 
 </div>
+
+<h1 align="center">Stats :</h1>
+
+<div align="center">
+ 
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Souka1987&theme=dracula&show_icons=true)
+ 
+ </div>
