@@ -32,14 +32,9 @@ I started web development in 2020, because I wanted to discover the digital busi
 ![GitHub last commit](https://img.shields.io/github/last-commit/Souka1987/Formation_DWWM?logo=github&logoColor=pink&style=social)
 ![GitHub followers](https://img.shields.io/github/followers/Souka1987?logoColor=crimson&style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/Souka1987/Formation_CDA?logoColor=red&style=social)
+ [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&style=social)](https://www.linkedin.com/in/soukainata-attoumani-39131b13b/)
 
 </div>
-
-<p align="center">
- <a href="https://www.linkedin.com/in/soukainata-attoumani-39131b13b/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-  </a>
-</p>
 
 
 <h1 align="center">Languages, Technologies and Environments :</h1>
