@@ -18,7 +18,7 @@ I started web development in 2020, because I wanted to discover the digital busi
 
 | Degrees                     | Obtained         |  years  |
 | :---                        | :----:           |    ---: |
-| Application Developer       | in progress      | 2022    |
+| Application Developer       | yes              | 2022    |
 | Web and Mobile Web Developer| yes              | 2020    |
 | Vocational Baccalauréat     | yes              | 2008    |
 
