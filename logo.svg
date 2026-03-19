@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="520" viewBox="0 0 400 520" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="400" height="520" fill="#050505"/>
+
+  <!-- Outer frame (very faint) -->
+  <rect x="20" y="20" width="360" height="480"
+        fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.18"/>
+
+  <!-- Corner brackets — cyber-noir aesthetic -->
+  <path d="M 20 52 L 20 20 L 52 20"  fill="none" stroke="#ffffff" stroke-width="0.9" opacity="0.5"/>
+  <path d="M 348 20 L 380 20 L 380 52" fill="none" stroke="#ffffff" stroke-width="0.9" opacity="0.5"/>
+  <path d="M 20 468 L 20 500 L 52 500" fill="none" stroke="#ffffff" stroke-width="0.9" opacity="0.5"/>
+  <path d="M 348 500 L 380 500 L 380 468" fill="none" stroke="#ffffff" stroke-width="0.9" opacity="0.5"/>
+
+  <!-- ═══════════════════════════════════
+       TOP CHAMBER — center offset LEFT (x=185)
+       Top edge : x 80–290  (w=210)
+       Neck     : x 173–197 (w=24)
+       y range  : 65–198
+  ═══════════════════════════════════ -->
+  <path d="M 80 65 L 290 65 L 197 198 L 173 198 Z"
+        fill="none" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="miter"/>
+
+  <!-- Inner structural lines — top chamber (wireframe depth) -->
+  <!-- y=109 → left 111, right 259 -->
+  <line x1="111" y1="109" x2="259" y2="109"
+        stroke="#ffffff" stroke-width="0.45" opacity="0.28"/>
+  <!-- y=152 → left 141, right 229 -->
+  <line x1="141" y1="152" x2="229" y2="152"
+        stroke="#ffffff" stroke-width="0.45" opacity="0.28"/>
+
+  <!-- ═══════════════════════════════════
+       ASYMMETRIC SAND FLOW
+       Top neck (173–197, y=198) → Bottom neck (203–227, y=213)
+       Both curves sweep hard RIGHT (+60–70px) then return
+  ═══════════════════════════════════ -->
+  <!-- Left flow edge -->
+  <path d="M 173 198 C 242 200 246 210 203 213"
+        fill="none" stroke="#ffffff" stroke-width="1.3"/>
+  <!-- Right flow edge -->
+  <path d="M 197 198 C 266 200 270 210 227 213"
+        fill="none" stroke="#ffffff" stroke-width="1.3"/>
+
+  <!-- ═══════════════════════════════════
+       BOTTOM CHAMBER — center offset RIGHT (x=215)
+       Neck  : x 203–227 (w=24)
+       Bottom: x 120–310 (w=190)
+       y range: 213–375
+  ═══════════════════════════════════ -->
+  <path d="M 203 213 L 227 213 L 310 375 L 120 375 Z"
+        fill="none" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="miter"/>
+
+  <!-- Inner structural lines — bottom chamber -->
+  <!-- y=267 → left 175, right 255 -->
+  <line x1="175" y1="267" x2="255" y2="267"
+        stroke="#ffffff" stroke-width="0.45" opacity="0.28"/>
+  <!-- y=321 → left 148, right 282 -->
+  <line x1="148" y1="321" x2="282" y2="321"
+        stroke="#ffffff" stroke-width="0.45" opacity="0.28"/>
+
+  <!-- ═══════════════════════════════════
+       VERTEX DOTS — candycode precision markers
+  ═══════════════════════════════════ -->
+  <circle cx="80"  cy="65"  r="2.5" fill="#ffffff"/>
+  <circle cx="290" cy="65"  r="2.5" fill="#ffffff"/>
+  <circle cx="173" cy="198" r="2.5" fill="#ffffff"/>
+  <circle cx="197" cy="198" r="2.5" fill="#ffffff"/>
+  <circle cx="203" cy="213" r="2.5" fill="#ffffff"/>
+  <circle cx="227" cy="213" r="2.5" fill="#ffffff"/>
+  <circle cx="120" cy="375" r="2.5" fill="#ffffff"/>
+  <circle cx="310" cy="375" r="2.5" fill="#ffffff"/>
+
+  <!-- Midpoint accent dots on chamber edges -->
+  <circle cx="127" cy="131" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="243" cy="131" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="155" cy="294" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="258" cy="294" r="1.5" fill="#ffffff" opacity="0.5"/>
+
+  <!-- ═══════════════════════════════════
+       SAND GRANULES — top chamber (accumulated past)
+       All points verified inside trapezoid bounds
+  ═══════════════════════════════════ -->
+  <circle cx="148" cy="93"  r="1.3" fill="#ffffff" opacity="0.42"/>
+  <circle cx="196" cy="89"  r="1.3" fill="#ffffff" opacity="0.42"/>
+  <circle cx="242" cy="95"  r="1.3" fill="#ffffff" opacity="0.42"/>
+  <circle cx="162" cy="133" r="1.3" fill="#ffffff" opacity="0.42"/>
+  <circle cx="214" cy="130" r="1.3" fill="#ffffff" opacity="0.42"/>
+  <circle cx="183" cy="170" r="1.3" fill="#ffffff" opacity="0.42"/>
+
+  <!-- ═══════════════════════════════════
+       TYPOGRAPHY
+  ═══════════════════════════════════ -->
+
+  <!-- Thin separator line -->
+  <line x1="145" y1="408" x2="255" y2="408"
+        stroke="#ffffff" stroke-width="0.5" opacity="0.38"/>
+
+  <text x="200" y="429"
+        font-family="'Courier New', Courier, monospace"
+        font-size="14" font-weight="400"
+        fill="#ffffff" text-anchor="middle"
+        letter-spacing="5">HISTORY</text>
+
+  <text x="200" y="451"
+        font-family="'Courier New', Courier, monospace"
+        font-size="10.5" font-weight="400"
+        fill="#ffffff" text-anchor="middle"
+        letter-spacing="5" opacity="0.78">REIMAGINED</text>
+
+  <!-- Micro reference label (candycode signature) -->
+  <text x="381" y="502"
+        font-family="'Courier New', Courier, monospace"
+        font-size="6" fill="#ffffff" opacity="0.14"
+        text-anchor="end">HR_001</text>
+
+</svg>
