@@ -1,5 +1,5 @@
 import { PrismesNavbar } from "@/components/navbar/PrismesNavbar";
-import { HeroSection } from "@/components/home/HeroSection";
+import { Component as HeroSection } from "@/components/ui/hero-section";
 import { EntitesFeatured } from "@/components/home/EntitesFeatured";
 import { MiniSerieTeaser } from "@/components/home/MiniSerieTeaser";
 import { LePrismeSection } from "@/components/home/LePrismeSection";
