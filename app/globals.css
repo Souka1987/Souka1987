@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Variables CSS ─────────────────────────────────────────── */
+:root {
+  --nuit: #0a0f1e;
+  --nuit-light: #0d1526;
+  --nuit-card: #0f1729;
+  --hacker: #2563eb;
+  --texte: #e2e8f0;
+  --texte-muted: #94a3b8;
+  --texte-dim: #475569;
+  --forge: #4ade80;
+  --ame: #facc15;
+  --miroir: #f472b6;
+  --envers: #fb923c;
+}
+
+/* ─── Base ───────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--nuit);
+  color: var(--texte);
+  min-height: 100vh;
+}
+
+/* ─── Sélection texte ────────────────────────────────────────── */
+::selection {
+  background-color: rgba(37, 99, 235, 0.3);
+  color: #fff;
+}
+
+/* ─── Scrollbar custom ───────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--nuit-light);
+}
+::-webkit-scrollbar-thumb {
+  background: #2563eb40;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb80;
+}
+
+/* Masquer scrollbar horizontal sur les sliders */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* ─── Scanline globale ───────────────────────────────────────── */
+.scanline-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.015) 2px,
+    rgba(0, 0, 0, 0.015) 4px
+  );
+}
+
+/* ─── Texte glow hacker ──────────────────────────────────────── */
+.text-hacker-glow {
+  text-shadow:
+    0 0 20px rgba(37, 99, 235, 0.5),
+    0 0 60px rgba(37, 99, 235, 0.25);
+}
+
+/* ─── Transition durée personnalisée ────────────────────────── */
+.duration-400 {
+  transition-duration: 400ms;
+}
+
+/* ─── Marquee ────────────────────────────────────────────────── */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 35s linear infinite;
+  will-change: transform;
+}
+
+/* ─── Curseur terminal clignotant ────────────────────────────── */
+@keyframes cursorBlink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.animate-cursor-blink {
+  animation: cursorBlink 1s step-end infinite;
+}
+
+/* ─── Glow pulse ─────────────────────────────────────────────── */
+@keyframes glowPulse {
+  0% {
+    text-shadow:
+      0 0 20px rgba(37, 99, 235, 0.4),
+      0 0 40px rgba(37, 99, 235, 0.2);
+  }
+  100% {
+    text-shadow:
+      0 0 40px rgba(37, 99, 235, 0.8),
+      0 0 80px rgba(37, 99, 235, 0.4),
+      0 0 120px rgba(37, 99, 235, 0.2);
+  }
+}
+.animate-glow-pulse {
+  animation: glowPulse 2.5s ease-in-out infinite alternate;
+}
+
+/* ─── Scanline animée ────────────────────────────────────────── */
+@keyframes scanline {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+.animate-scanline {
+  animation: scanline 10s linear infinite;
+}
+
+/* ─── Focus ring accessible ──────────────────────────────────── */
+*:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
